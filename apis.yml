@@ -1,8 +1,24 @@
 aid: achira
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/achira.png
 name: Achira
-description: 'Achira is a company surfaced as a portfolio company of amplify-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: digital-biology. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Achira is a digital-biology company building molecular world models to transform drug
+  discovery and the physical sciences. Founded by John Chodera, Theofanis Karaletsos, and Zavain Dar, it
+  blends geometric deep learning, generative AI, physics, quantum chemistry, and statistical mechanics
+  into foundation simulation models that enable out-of-distribution prediction at the atomistic scale —
+  a "third path" between pure machine-learning approaches and traditional molecular dynamics simulation.
+  Achira raised a $33M Series A from Dimension, Amplify Partners, NVIDIA NVentures, and Compound. As of
+  this profile the company publishes no public developer API, documentation, or SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/achira/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,6 +32,13 @@ modified: '2026-07-17'
 tags:
 - Company
 - Digital Biology
+- Drug Discovery
+- Molecular Simulation
+- Machine Learning
+- Quantum Chemistry
+- Computational Chemistry
+- Artificial Intelligence
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +46,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/achira-domain-security.yml
 - type: Website
   url: https://achira.ai
+- type: Careers
+  url: https://achira.ai/careers
+- type: Contact
+  url: https://achira.ai/contact
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
