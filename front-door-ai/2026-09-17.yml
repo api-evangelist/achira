@@ -1,0 +1,30 @@
+# Front Door AI Index — achira — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: achira
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: achira.ai
+  final_host: achira.ai
+  ownership: own
+  owner: achira
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 14.78
+  words: 406
+  tiers:
+    agentic: 1
+    core: 5
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 2
+    ML: 1
+    agentic: 1
+    deep learning: 1
+    generative ai: 1
+    predictive: 1
